@@ -147,7 +147,7 @@
       "Request Type": "Refill",
       "Created At": "2024-11-01 06:18:40.967041464 UTC",
       "Updated At": "2024-11-01 06:18:40.967042227 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "2PiB",
       "Signers": [
         {
