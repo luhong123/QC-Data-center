@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f12yabtqz4tiim3df5d7f5et3kcp2pld556cfff3i",
+  "Issue Number": "20",
+  "Client": {
+    "Name": "noaa",
+    "Region": "United States",
+    "Industry": "IT & Technology Services",
+    "Website": "http://www.noaa.gov/",
+    "Social Media": "https://twitter.com/NOAA",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Hashlong（https://hashlong.com/）was established in 2021 and is the world's first NFT computing power platform. We provide technical services and computing power sales for BTC, FIL, Aleo, SMH and other projects. We participated in the Filecoin project in 2021 and made some investment and research and development, and we very much want to help contribute to Filecoin's data applications.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Near Real Time JPSS data is now flowing! See bucket information on the right side of this page to access products!\r\nSatellites in the JPSS constellation gather global measurements of atmospheric, terrestrial and oceanic conditions, including sea and land surface temperatures, vegetation, clouds, rainfall, snow and ice cover, fire locations and smoke plumes, atmospheric temperature, water vapor and ozone. JPSS delivers key observations for the Nation's essential products and services, including forecasting severe weather like hurricanes, tornadoes and blizzards days in advance, and assessing environmental hazards such as droughts, forest fires, poor air quality and harmful coastal waters. Further, JPSS will provide continuity of critical, global observations of Earth’s atmosphere, oceans and land through 2038.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We will download JPSS data, and then use lotus or boost calculate to be file of car to be in our storage device. SPs will download cars or we will send hard disks to them.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://noaa-jpss/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01912211 HK\r\nf01270096 HK\r\nf01053413 China\r\nf02238701 US\r\nf02826588 China\r\nf02826007 China",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "6 PiB",
+    "Single Size Dataset": "1020TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "500TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-11-21 08:17:40.495367745 UTC",
+    "Validated By": "luhong123",
+    "Active": true,
+    "Updated At": "2024-11-21 08:17:40.495363781 UTC",
+    "Active Request ID": "30bb85d5-276d-4309-a85c-244e29c29ad8",
+    "On Chain Address": "f12yabtqz4tiim3df5d7f5et3kcp2pld556cfff3i",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "30bb85d5-276d-4309-a85c-244e29c29ad8",
+      "Request Type": "First",
+      "Created At": "2024-11-21 08:16:05.592023249 UTC",
+      "Updated At": "2024-11-21 08:16:05.592024824 UTC",
+      "Active": false,
+      "Allocation Amount": "300TiB",
+      "Signers": [
+        {
+          "Github Username": "luhong123",
+          "Signing Address": "f1apw6of55wzdbpjpnnyenv56ensi4iisaxgmigzi",
+          "Created At": "2024-11-21 08:17:38.206000000 UTC",
+          "Message CID": "bafy2bzacebabi5obpycob5dambgqggpyguvtd6att2z3trzg2lgz5g4i2jime"
+        }
+      ]
+    }
+  ]
+}
