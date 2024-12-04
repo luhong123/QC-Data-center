@@ -35,11 +35,11 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2024-12-04 08:50:37.197118757 UTC",
+    "State": "Granted",
+    "Validated At": "2024-12-04 08:53:10.855561100 UTC",
     "Validated By": "luhong123",
     "Active": true,
-    "Updated At": "2024-12-04 08:50:37.197263618 UTC",
+    "Updated At": "2024-12-04 08:53:10.855557590 UTC",
     "Active Request ID": "d68b93cb-5e3a-44c3-b117-3fe58c32406d",
     "On Chain Address": "f12j74v2dlq3zpynkapm5e4e6r3l57xyzrfoub65q",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-12-04 08:50:37.197268207 UTC",
       "Updated At": "2024-12-04 08:50:37.197269795 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "512TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "luhong123",
+          "Signing Address": "f1apw6of55wzdbpjpnnyenv56ensi4iisaxgmigzi",
+          "Created At": "2024-12-04 08:53:07.834000000 UTC",
+          "Message CID": "bafy2bzacea6prqvmprsapzqos55ewxxzolacfck4jlkonlfcrcmjnt4xmjimi"
+        }
+      ]
     }
   ]
 }
