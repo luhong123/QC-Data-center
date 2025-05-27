@@ -12,7 +12,7 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Brief history of your project and organization": "NOAA has generated a multi-decadal reanalysis and reforecast data set to accompany the next-generation version of its ensemble prediction system, the Global Ensemble Forecast System, version 12 (GEFSv12). Accompanying the real-time forecasts are “reforecasts” of the weather, that is, retrospective forecasts spanning the period 2000-2019.\r\nOur team is Tinydata. We are investors in filecoin and want to get deeply involved in the filecoin ecosystem.",
+    "Brief history of your project and organization": "NOAA has generated a multi-decadal reanalysis and reforecast data set to accompany the next-generation version of its ensemble prediction system, the Global Ensemble Forecast System, version 12 (GEFSv12). Accompanying the real-time forecasts are “reforecasts” of the weather, that is, retrospective forecasts spanning the period 2000-2019.\nOur team is Tinydata. We are investors in filecoin and want to get deeply involved in the filecoin ecosystem.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "GEFS Re-forecast in Grib2 Format",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
@@ -23,7 +23,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03066836 Hunan\r\nf01975299 Guangdong\r\nf03156722 US\r\nf03192503 HongKong\r\nf03224828 UK",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03066836 Hunan\nf01975299 Guangdong\nf03192503 HongKong\nf02816097 HongKong\nf03214920 HongKong",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -43,7 +43,7 @@
     "Active Request ID": "76f1dda8-812f-4a7a-bee5-a64fb861dfca",
     "On Chain Address": "f1hwrfunlc2vof2swv4lst3lyromfz2si4bnfmsfy",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
