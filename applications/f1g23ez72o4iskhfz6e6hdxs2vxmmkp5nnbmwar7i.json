@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1g23ez72o4iskhfz6e6hdxs2vxmmkp5nnbmwar7i",
+  "Issue Number": "43",
+  "Client": {
+    "Name": "M-Dreamer",
+    "Region": "Hong Kong",
+    "Industry": "Web3 / Crypto",
+    "Website": "",
+    "Social Media": "M-Dreamer",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "M-Dreamer Ltd. is a Hongkong immersive technology company specializing in virtual reality (VR), AI-driven digital content, and 3D user-generated platforms. Since its founding in 2018, the company has focused on building interactive digital spaces for education, entertainment, and enterprise use. It launched its flagship platform M-World, which allows users to create, explore, and share immersive experiences and digital assets.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "1.\t3D Virtual Scene Files\nUser-generated VR environments, objects, and interactions from the M-World platform.\n2.\tAI Model Training Data and Inference Results\nIncludes labeled image/video datasets and serialized AI model checkpoints for virtual characters and environmental rendering.\n3.\tDigital Assets and User-Created Content\nAvatars, digital fashion items, custom scripts, and metadata from community creators.\n4.\tPlatform Operation Logs\nBackend logs, event data, and API usage metrics used for platform performance monitoring and auditing.\n5.\tVirtual Event Archives\nHigh-resolution capture and interaction data from metaverse concerts, brand launches, and exhibitions.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "1.\tData Collection & Categorization\n\t•\tUsing internal data pipelines to collect UGC and AI outputs from M-World.\n\t•\tTagging and categorizing using custom scripts and metadata layers.\n2.\tData Preprocessing\n\t•\tFor 3D files and videos: mesh optimization, resolution capping.\n\t•\tFor AI data: normalized format (JSON, Parquet), removal of PII.\n3.\tCompression & Packaging\n\t•\tTools: tar, zstd, gzip for large datasets.\n\t•\tSegmentation into ~32GiB-64GiB CAR files.\n4.\tData Validation\n\t•\tGenerate CIDs using Lotus or Boost.\n\t•\tRun lotus client deal dry-run tests to simulate retrieval.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://203.160.84.158:9988/papers/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "North America, Greater China, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, IPFS",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03540144 – Manila, Metro Manila, Philippines  \nf03540147 – Manila, Metro Manila, Philippines\nf03540153 – Singapore, Singapore  \nf03601955 – Singapore, Singapore  \nf03601967 – Seoul, South Korea  \nf03601993 – Seoul, South Korea  \nf03298673 – Germany",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "800TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-07-07 11:25:39.585155467 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1g23ez72o4iskhfz6e6hdxs2vxmmkp5nnbmwar7i",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
