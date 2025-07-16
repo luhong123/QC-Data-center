@@ -31,7 +31,7 @@
     "Data Type": "Slingshot",
     "Total Requested Amount": "3PiB",
     "Single Size Dataset": "500TiB",
-    "Replicas": 6,
+    "Replicas": 8,
     "Weekly Allocation": "800TiB"
   },
   "Lifecycle": {
