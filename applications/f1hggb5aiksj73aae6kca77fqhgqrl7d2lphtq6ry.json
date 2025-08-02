@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1hggb5aiksj73aae6kca77fqhgqrl7d2lphtq6ry",
+  "Issue Number": "50",
+  "Client": {
+    "Name": "Tianshou (Shenzhen) Short Video Co., Ltd",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.sztianshou.com/",
+    "Social Media": "https://www.sztianshou.com/",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "tianshou (Shenzhen) Short Video Co., Ltd. is a professional and comprehensive culture and media company dedicated to providing customers with a full range of film and television production, culture and art, creative design and digital technology services. We have experienced professional team, advanced production equipment, and perfect service system.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Some movie and TV footage shot with different camera equipment, such as DJI, Canon, drones and so on.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "Using singularity to package data and send deals\nHere is the documentation for its operation\n\nhttps://github.com/tech-greedy/singularity/blob/main/getting-started.md",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "7.43 复制打开抖音，看看【旅码星球的作品】如果你也喜欢自由洒脱 ，那么工作就不应成为出发的阻... https://v.douyin.com/N_yw6KIO8UA/ 12/21 A@G.iC DUy:/ \n\n0.76 复制打开抖音，看看【旅码星球的作品】在广西开启移动办公旅行？是的，我们又出发啦！ # ... https://v.douyin.com/RV8a4eL2z9U/ X@m.qR EHI:/ 04/18 \n\nThese are the works of our clients.",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03377773 Vietnam\nf03377778 Vietnam\nf03373733 Guangdong\nf03373337 Guangdong\nf03373373 Guangdong\nf03081952 CALIFORNIA\nf03577777  Singapore\nf03577778  Singapore\nf03567898  Shenzhen\nf03567899  Shenzhen\nf03499888 Guangdong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4PiB",
+    "Single Size Dataset": "400TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-08-02 07:07:05.609422294 UTC",
+    "Validated By": "luhong123",
+    "Active": true,
+    "Updated At": "2025-08-02 07:07:05.609418429 UTC",
+    "Active Request ID": "aa7c657f-be18-4b85-9895-3e591242ca63",
+    "On Chain Address": "f1hggb5aiksj73aae6kca77fqhgqrl7d2lphtq6ry",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "aa7c657f-be18-4b85-9895-3e591242ca63",
+      "Request Type": "First",
+      "Created At": "2025-08-02 07:03:53.120389940 UTC",
+      "Updated At": "2025-08-02 07:03:53.120390929 UTC",
+      "Active": false,
+      "Allocation Amount": "219902325555200 B",
+      "Signers": [
+        {
+          "Github Username": "luhong123",
+          "Signing Address": "f1apw6of55wzdbpjpnnyenv56ensi4iisaxgmigzi",
+          "Created At": "2025-08-02 07:07:01.406000000 UTC",
+          "Message CID": "bafy2bzaceajj64zbxedyedd5j7lvnfkdnhbh2cplt67vjt3ais3f27n7ecw2w"
+        }
+      ]
+    }
+  ]
+}
