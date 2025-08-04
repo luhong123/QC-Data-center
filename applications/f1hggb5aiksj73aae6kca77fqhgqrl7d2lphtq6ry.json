@@ -36,11 +36,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-08-02 07:07:05.609422294 UTC",
+    "Validated At": "2025-08-04 06:10:03.798865172 UTC",
     "Validated By": "luhong123",
     "Active": true,
-    "Updated At": "2025-08-02 07:07:05.609418429 UTC",
-    "Active Request ID": "aa7c657f-be18-4b85-9895-3e591242ca63",
+    "Updated At": "2025-08-04 06:10:03.798861535 UTC",
+    "Active Request ID": "59288795-5fe4-43c1-8353-be8f9177fcf5",
     "On Chain Address": "f1hggb5aiksj73aae6kca77fqhgqrl7d2lphtq6ry",
     "Multisig Address": "false",
     "edited": false
@@ -59,6 +59,22 @@
           "Signing Address": "f1apw6of55wzdbpjpnnyenv56ensi4iisaxgmigzi",
           "Created At": "2025-08-02 07:07:01.406000000 UTC",
           "Message CID": "bafy2bzaceajj64zbxedyedd5j7lvnfkdnhbh2cplt67vjt3ais3f27n7ecw2w"
+        }
+      ]
+    },
+    {
+      "ID": "59288795-5fe4-43c1-8353-be8f9177fcf5",
+      "Request Type": "Refill",
+      "Created At": "2025-08-04 06:08:37.918360672 UTC",
+      "Updated At": "2025-08-04 06:08:37.918361352 UTC",
+      "Active": false,
+      "Allocation Amount": "439804651110400B",
+      "Signers": [
+        {
+          "Github Username": "luhong123",
+          "Signing Address": "f1apw6of55wzdbpjpnnyenv56ensi4iisaxgmigzi",
+          "Created At": "2025-08-04 06:10:01.580000000 UTC",
+          "Message CID": "bafy2bzacebnmjk7o74qt53x53xzcyy3bcbhdi3hayoz5bunysdivcglmmvdnw"
         }
       ]
     }
