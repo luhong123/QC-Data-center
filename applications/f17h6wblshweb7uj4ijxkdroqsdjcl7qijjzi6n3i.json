@@ -31,11 +31,11 @@
     "Data Type": "Slingshot",
     "Total Requested Amount": "5PiB",
     "Single Size Dataset": "1.32PiB",
-    "Replicas": 4,
+    "Replicas": 8,
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2024-09-20 02:50:00.227138340 UTC",
     "Validated By": "luhong123",
     "Active": true,
