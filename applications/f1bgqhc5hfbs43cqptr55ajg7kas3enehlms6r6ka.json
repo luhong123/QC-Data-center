@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-08-29 06:03:04.745114529 UTC",
+    "Validated At": "2025-08-29 06:04:41.089162409 UTC",
     "Validated By": "luhong123",
     "Active": true,
-    "Updated At": "2025-08-29 06:03:04.745110915 UTC",
-    "Active Request ID": "92c31ea3-3fc0-4989-b4a2-9d124321967b",
+    "Updated At": "2025-08-29 06:04:41.089161658 UTC",
+    "Active Request ID": "3281b501-09da-44f8-9546-c070a3a1867b",
     "On Chain Address": "f1bgqhc5hfbs43cqptr55ajg7kas3enehlms6r6ka",
     "Multisig Address": "false",
     "edited": false
@@ -151,6 +151,35 @@
           "Add Allowed Storage Providers CID": {
             "bafy2bzaceawisycsdsetdpknh6rfevqr7cs7kr7ccsilabviv7cpwh46xa27y": [
               "3559995"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "1295d8c6-9a1e-4b56-bf9c-e2c97a55c229",
+      "Created At": "2025-08-29 06:04:41.089134076 UTC",
+      "Updated At": "2025-08-29 06:04:41.089138906 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3559995,
+        3559991,
+        3559992,
+        3559993,
+        3559994,
+        3602430
+      ],
+      "Signers": [
+        {
+          "Github Username": "luhong123",
+          "Signing Address": "f1apw6of55wzdbpjpnnyenv56ensi4iisaxgmigzi",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacecblcuj7xnwnnhcdk2w36wh74j5jlbxfr7x6l3k7gcdfqdnxgcztw": [
+              "3559991",
+              "3559992",
+              "3559993",
+              "3559994",
+              "3602430"
             ]
           }
         }
