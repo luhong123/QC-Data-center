@@ -2,7 +2,6 @@
   "Version": "1.3",
   "ID": "f1nqhbmkaclsllf5r4hykn54gwpzvozwjw4i7hixi",
   "Issue Number": "73",
-  "Client Contract Address": "f410fh6ilo6dzx2p5fjnmcv7omza62sw7a534wegymiy",
   "Client": {
     "Name": "Smart Contract Testing",
     "Region": "Afghanistan",
@@ -36,25 +35,15 @@
     "Weekly Allocation": "100TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-09-01 09:44:28.468997798 UTC",
-    "Validated By": "luhong123",
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
     "Active": true,
-    "Updated At": "2025-09-01 09:44:28.469002829 UTC",
-    "Active Request ID": "45e16ace-ac8a-4adc-a26d-ecfcffec301c",
+    "Updated At": "2025-09-01 09:44:53.496584236 UTC",
+    "Active Request ID": "",
     "On Chain Address": "f1nqhbmkaclsllf5r4hykn54gwpzvozwjw4i7hixi",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": [
-    {
-      "ID": "45e16ace-ac8a-4adc-a26d-ecfcffec301c",
-      "Request Type": "First",
-      "Created At": "2025-09-01 09:44:28.469004733 UTC",
-      "Updated At": "2025-09-01 09:44:28.469005940 UTC",
-      "Active": true,
-      "Allocation Amount": "109951162777600 B",
-      "Signers": []
-    }
-  ]
+  "Allocation Requests": []
 }
