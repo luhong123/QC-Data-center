@@ -3,8 +3,6 @@ Notary Allocator Pathway Name : QC-Data-center
 
 # 🚀 QC-Data-center Allocation Proposal
 
-> GitHub Issue: https://github.com/filecoin-project/notary-governance/issues/1071
-
 ---
 
 ## 📌 一、组织信息 | Organization Information
@@ -48,8 +46,8 @@ QC-Data-center is a new pathway. This proposed channel is designed to allow us t
 
 ## 💾 四、数据要求 | Data Requirements
 
-1. 💠 至少进行 4 份数据备份  
-   - At least 4 data backups  
+1. 💠 至少进行 4 份数据备份,最大副本数限制为 8 份  
+   - At least 4 data backups，The maximum number of replicas is limited to 8  
 2. 🌐 节点地理位置分布 ≥ 4 个地区  
    - Nodes must span at least 4 distinct geographic regions  
 3. 📊 单轮中每个 SP 分配不超过 25%  
