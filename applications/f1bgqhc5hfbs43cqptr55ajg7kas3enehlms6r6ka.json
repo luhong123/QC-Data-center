@@ -36,11 +36,11 @@
     "Weekly Allocation": "100TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-09-03 09:14:11.562516301 UTC",
+    "State": "Granted",
+    "Validated At": "2025-09-03 09:18:11.373697265 UTC",
     "Validated By": "luhong123",
     "Active": true,
-    "Updated At": "2025-09-03 09:14:11.562519421 UTC",
+    "Updated At": "2025-09-03 09:18:11.373693416 UTC",
     "Active Request ID": "8baf0b10-5091-4536-9c97-7b58150d1c59",
     "On Chain Address": "f1bgqhc5hfbs43cqptr55ajg7kas3enehlms6r6ka",
     "Multisig Address": "false",
@@ -153,9 +153,16 @@
       "Request Type": "Refill",
       "Created At": "2025-09-03 09:14:11.562540283 UTC",
       "Updated At": "2025-09-03 09:14:11.562540901 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "9972570463928B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "luhong123",
+          "Signing Address": "f1apw6of55wzdbpjpnnyenv56ensi4iisaxgmigzi",
+          "Created At": "2025-09-03 09:18:08.687000000 UTC",
+          "Increase allowance CID": "bafy2bzacea67l6d7sgmlweqfm7ccxjnku52jaixqjjbjikcm4rve53pr2zlv6"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
