@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-09-02 09:04:39.380548326 UTC",
+    "Validated At": "2025-09-08 10:09:05.846980148 UTC",
     "Validated By": "luhong123",
     "Active": true,
-    "Updated At": "2025-09-02 09:04:39.380547427 UTC",
-    "Active Request ID": "05921afa-b2a8-41c6-805d-2ff8d70c1691",
+    "Updated At": "2025-09-08 10:09:05.846979389 UTC",
+    "Active Request ID": "ed44ddef-c4c0-4860-a8d3-b94f8ac983cd",
     "On Chain Address": "f1nqhbmkaclsllf5r4hykn54gwpzvozwjw4i7hixi",
     "Multisig Address": "false",
     "edited": false
@@ -116,6 +116,48 @@
           "Signing Address": "f1apw6of55wzdbpjpnnyenv56ensi4iisaxgmigzi",
           "Add Allowed Storage Providers CID": {
             "bafy2bzacebxmttj7nhtnznnxlpxs4wqlti7wyt5p7rig43dgi3egfvrnfqmk4": [
+              "3577777",
+              "3577778",
+              "3567898",
+              "3567899"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "d44c81b0-433f-436d-9360-1144a43c6144",
+      "Created At": "2025-09-08 10:09:05.846958036 UTC",
+      "Updated At": "2025-09-08 10:09:05.846962691 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        2822088,
+        3499999,
+        3377777,
+        3500000,
+        3068297,
+        3080038
+      ],
+      "Signers": [
+        {
+          "Github Username": "luhong123",
+          "Signing Address": "f1apw6of55wzdbpjpnnyenv56ensi4iisaxgmigzi",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacedtnq6sc3y5y2ytlubiys7aefknr5rwmzl2zaxwuoz5f4euyqufjk": [
+              "2822088",
+              "3499999",
+              "3377777",
+              "3500000",
+              "3068297",
+              "3080038"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzaceco6sqxdp5mbymdfyxiwn3hzki47iightcsg7gwsqkprq25n76aje": [
+              "3559991",
+              "3559992",
+              "3559993",
+              "3559994",
               "3577777",
               "3577778",
               "3567898",
