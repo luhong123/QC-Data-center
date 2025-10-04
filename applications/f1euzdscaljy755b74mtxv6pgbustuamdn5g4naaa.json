@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1euzdscaljy755b74mtxv6pgbustuamdn5g4naaa",
   "Issue Number": "81",
+  "Client Contract Address": "f410fh6ilo6dzx2p5fjnmcv7omza62sw7a534wegymiy",
   "Client": {
     "Name": "Beijing Sunshine Tiannu Media Co., Ltd.",
     "Region": "China",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-10-04 07:55:36.439665518 UTC",
+    "Validated By": "luhong123",
     "Active": true,
-    "Updated At": "2025-10-04 05:50:19.767423575 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-10-04 07:55:36.439671472 UTC",
+    "Active Request ID": "9024bb9d-3f33-4444-841c-f19b0a1e9c08",
     "On Chain Address": "f1euzdscaljy755b74mtxv6pgbustuamdn5g4naaa",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "9024bb9d-3f33-4444-841c-f19b0a1e9c08",
+      "Request Type": "First",
+      "Created At": "2025-10-04 07:55:36.439674287 UTC",
+      "Updated At": "2025-10-04 07:55:36.439675504 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
