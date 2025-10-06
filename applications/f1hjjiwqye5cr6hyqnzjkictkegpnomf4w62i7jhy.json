@@ -1,0 +1,107 @@
+{
+  "Version": "1.3",
+  "ID": "f1hjjiwqye5cr6hyqnzjkictkegpnomf4w62i7jhy",
+  "Issue Number": "84",
+  "Client Contract Address": "f410fh6ilo6dzx2p5fjnmcv7omza62sw7a534wegymiy",
+  "Client": {
+    "Name": "Beijing Sunshine Tiannu Media Co., Ltd.",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "http://www.chinasunmedia.com/",
+    "Social Media": "http://www.chinasunmedia.com/",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Sunshine Media Group Holdings Limited (referred to as Sunshine Media Group) was founded in 1999 by Mr. Wu Zheng and Ms. Yang Lan. As an innovative cultural brand operator, it has become one of the leading private media groups in China and has a wide international reputation and influence. The business of Sunshine Media Group is distributed in film and television, education, tourism, sports, Internet and other fields. It is famous in the industry for its high-quality film and television IP operation and integrated marketing, mature female lifelong growth education system, highly active female Internet community, and cultural tourism planning and large-scale cultural performance creation ability.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Behind-the-scenes footage from some movies and short videos",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We generate and send cars and related orders based on this document: \nhttps://github.com/tech-greedy/singularity/blob/main/getting-started.md.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.aliyundrive.com/s/8aFGFE312FE",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03519199  Guangzhou \nf03519200  Guangzhou \nf03519208  Guangzhou\nf02808899 Singapore\nf03175111    Thailand \nf03175168   Thailand\nf03373733 Guangdong\nf03373337 Guangdong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "640TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-10-06 18:13:14.994226057 UTC",
+    "Validated By": "luhong123",
+    "Active": true,
+    "Updated At": "2025-10-06 18:13:14.994221731 UTC",
+    "Active Request ID": "009f302d-57e4-4dc5-b577-b603c22be88a",
+    "On Chain Address": "f1hjjiwqye5cr6hyqnzjkictkegpnomf4w62i7jhy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "009f302d-57e4-4dc5-b577-b603c22be88a",
+      "Request Type": "First",
+      "Created At": "2025-10-06 18:05:57.486656376 UTC",
+      "Updated At": "2025-10-06 18:05:57.486658245 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Amount of Datacap Sent to Contract": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "luhong123",
+          "Signing Address": "f1apw6of55wzdbpjpnnyenv56ensi4iisaxgmigzi",
+          "Created At": "2025-10-06 18:13:12.067000000 UTC",
+          "Message CID": "bafy2bzacecubmjergaxve7gixhemrsv4oxlzey3lrjijuqldgdc2e5j3ucug2",
+          "Increase allowance CID": "bafy2bzacebdfwtod64zkbzuoaaw7z4iizfj6b4yqm5gfuqm2nz2p3vmgdwksy"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "bb8ccaf1-eb2c-46d9-8454-8f11f693d00e",
+      "Created At": "2025-10-06 18:09:41.699593147 UTC",
+      "Updated At": "2025-10-06 18:09:41.699598296 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3519199,
+        3519200,
+        3519208,
+        2808899,
+        3175111,
+        3175168,
+        3373733,
+        3373337
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "luhong123",
+          "Signing Address": "f1apw6of55wzdbpjpnnyenv56ensi4iisaxgmigzi",
+          "Set Max Deviation CID": "bafy2bzacecz3rgiwgnxcb2bi5r3hvrvzp3cl77fkdbu4tr4vac6gniyxkk4aw",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceaalsciecgwxepqf2dmus2bhkgcaxiq65pmhh47ssmyo26xyw5rka": [
+              "3519199",
+              "3519200",
+              "3519208",
+              "2808899",
+              "3175111",
+              "3175168",
+              "3373733",
+              "3373337"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
