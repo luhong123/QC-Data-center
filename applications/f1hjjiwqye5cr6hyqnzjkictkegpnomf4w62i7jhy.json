@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-10-06 18:13:14.994226057 UTC",
+    "Validated At": "2025-10-07 13:22:35.551852794 UTC",
     "Validated By": "luhong123",
     "Active": true,
-    "Updated At": "2025-10-06 18:13:14.994221731 UTC",
-    "Active Request ID": "009f302d-57e4-4dc5-b577-b603c22be88a",
+    "Updated At": "2025-10-07 13:22:35.551848511 UTC",
+    "Active Request ID": "8f661d30-cf8b-450f-a097-27c04dee9dc4",
     "On Chain Address": "f1hjjiwqye5cr6hyqnzjkictkegpnomf4w62i7jhy",
     "Multisig Address": "false",
     "edited": false
@@ -62,6 +62,24 @@
           "Created At": "2025-10-06 18:13:12.067000000 UTC",
           "Message CID": "bafy2bzacecubmjergaxve7gixhemrsv4oxlzey3lrjijuqldgdc2e5j3ucug2",
           "Increase allowance CID": "bafy2bzacebdfwtod64zkbzuoaaw7z4iizfj6b4yqm5gfuqm2nz2p3vmgdwksy"
+        }
+      ]
+    },
+    {
+      "ID": "8f661d30-cf8b-450f-a097-27c04dee9dc4",
+      "Request Type": "Refill",
+      "Created At": "2025-10-07 13:19:59.784579563 UTC",
+      "Updated At": "2025-10-07 13:19:59.784580431 UTC",
+      "Active": false,
+      "Allocation Amount": "562949953421312B",
+      "Amount of Datacap Sent to Contract": "562949953421312B",
+      "Signers": [
+        {
+          "Github Username": "luhong123",
+          "Signing Address": "f1apw6of55wzdbpjpnnyenv56ensi4iisaxgmigzi",
+          "Created At": "2025-10-07 13:22:32.888000000 UTC",
+          "Message CID": "bafy2bzaceczvdbuendychwqamlnr6i3sdf7avgnha437otk5jnqwxrl3wyyjo",
+          "Increase allowance CID": "bafy2bzaceb2nrojulvghnmtllli4azda4y3nqbsf22kgfkq46ogh6i4et2w3s"
         }
       ]
     }
