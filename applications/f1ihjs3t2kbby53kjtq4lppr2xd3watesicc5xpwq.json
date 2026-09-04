@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1ihjs3t2kbby53kjtq4lppr2xd3watesicc5xpwq",
+  "Issue Number": "102",
+  "Client": {
+    "Name": "Tianshou (Shenzhen) Short Video Co., Ltd",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "",
+    "Social Media": "https://www.sztianshou.com/",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "tianshou (Shenzhen) Short Video Co., Ltd. is a professional and comprehensive culture and media company dedicated to providing customers with a full range of film and television production, culture and art, creative design and digital technology services. We have experienced professional team, advanced production equipment, and perfect service system.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Some movie and TV footage shot with different camera equipment, such as DJI, Canon, drones and so on.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "Using singularity to package data and send deals\nHere is the documentation for its operation\n\nhttps://github.com/tech-greedy/singularity/blob/main/getting-started.md",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "4.10 复制打开抖音，看看【旅码星球的作品】故事结尾，新疆就这样 # 在拍一种很新的vlog ... https://v.douyin.com/Jgl-v7xE594/ ATY:/ L@W.mQ 03/30 \n\nWe have updated the Xinjiang data once again.",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03377773 Vietnam\nf03377778 Vietnam\nf03373733 Guangdong\nf03373337 Guangdong\nf03577777  Singapore\nf03577778  Singapore\nf03567898  Shenzhen\nf03567899  Shenzhen",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "640TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2026-02-11 07:56:17.156537391 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1ihjs3t2kbby53kjtq4lppr2xd3watesicc5xpwq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
